@@ -1,0 +1,40 @@
+See file:///Users/yaksh/Desktop/CommandBaseTankDrive/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt for all output for compileFrcUserProgramReleaseExecutableFrcUserProgramCpp.
+compiling RobotContainer.cpp successful.
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/RobotContainer.cpp: In member function 'frc2::CommandPtr RobotContainer::GetAutonomousCommand()':
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/RobotContainer.cpp:28:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   28 | }
+      | ^
+
+compiling DriveCommand.cpp successful.
+
+compiling DriveSubsystem.cpp successful.
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/subsystems/DriveSubsystem.cpp:12:37: warning: 'TalonFX' is deprecated: This device's Phoenix 5 API is deprecated for removal in the 2025 season.Users should update to Phoenix 6 firmware and migrate to the Phoenix 6 API.A migration guide is available at https://v6.docs.ctr-electronics.com/en/stable/docs/migration/migration-guide/index.html [-Wdeprecated-declarations]
+   12 | phoenix::motorcontrol::can::TalonFX leftFront{1};
+      |                                     ^~~~~~~~~
+In file included from /Users/yaksh/.gradle/caches/transforms-3/94d34978c3eb97e49c3265cd34586e47/transformed/api-cpp-5.33.1-headers/ctre/Phoenix.h:22,
+                 from /Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/subsystems/DriveSubsystem.cpp:6:
+/Users/yaksh/.gradle/caches/transforms-3/94d34978c3eb97e49c3265cd34586e47/transformed/api-cpp-5.33.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:218:33: note: declared here
+  218 |                                 TalonFX : public virtual BaseTalon
+      |                                 ^~~~~~~
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/subsystems/DriveSubsystem.cpp:13:37: warning: 'TalonFX' is deprecated: This device's Phoenix 5 API is deprecated for removal in the 2025 season.Users should update to Phoenix 6 firmware and migrate to the Phoenix 6 API.A migration guide is available at https://v6.docs.ctr-electronics.com/en/stable/docs/migration/migration-guide/index.html [-Wdeprecated-declarations]
+   13 | phoenix::motorcontrol::can::TalonFX leftBack{2};
+      |                                     ^~~~~~~~
+/Users/yaksh/.gradle/caches/transforms-3/94d34978c3eb97e49c3265cd34586e47/transformed/api-cpp-5.33.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:218:33: note: declared here
+  218 |                                 TalonFX : public virtual BaseTalon
+      |                                 ^~~~~~~
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/subsystems/DriveSubsystem.cpp:14:37: warning: 'TalonFX' is deprecated: This device's Phoenix 5 API is deprecated for removal in the 2025 season.Users should update to Phoenix 6 firmware and migrate to the Phoenix 6 API.A migration guide is available at https://v6.docs.ctr-electronics.com/en/stable/docs/migration/migration-guide/index.html [-Wdeprecated-declarations]
+   14 | phoenix::motorcontrol::can::TalonFX rightFront{3};
+      |                                     ^~~~~~~~~~
+/Users/yaksh/.gradle/caches/transforms-3/94d34978c3eb97e49c3265cd34586e47/transformed/api-cpp-5.33.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:218:33: note: declared here
+  218 |                                 TalonFX : public virtual BaseTalon
+      |                                 ^~~~~~~
+/Users/yaksh/Desktop/CommandBaseTankDrive/src/main/cpp/subsystems/DriveSubsystem.cpp:15:37: warning: 'TalonFX' is deprecated: This device's Phoenix 5 API is deprecated for removal in the 2025 season.Users should update to Phoenix 6 firmware and migrate to the Phoenix 6 API.A migration guide is available at https://v6.docs.ctr-electronics.com/en/stable/docs/migration/migration-guide/index.html [-Wdeprecated-declarations]
+   15 | phoenix::motorcontrol::can::TalonFX rightBack{4};
+      |                                     ^~~~~~~~~
+/Users/yaksh/.gradle/caches/transforms-3/94d34978c3eb97e49c3265cd34586e47/transformed/api-cpp-5.33.1-headers/ctre/phoenix/motorcontrol/can/TalonFX.h:218:33: note: declared here
+  218 |                                 TalonFX : public virtual BaseTalon
+      |                                 ^~~~~~~
+
+compiling Robot.cpp successful.
+
+Finished compileFrcUserProgramReleaseExecutableFrcUserProgramCpp, see full log file:///Users/yaksh/Desktop/CommandBaseTankDrive/build/tmp/compileFrcUserProgramReleaseExecutableFrcUserProgramCpp/output.txt.
